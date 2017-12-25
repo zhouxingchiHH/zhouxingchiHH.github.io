@@ -1,0 +1,132 @@
+.style_layout {
+    width: 6.4rem;
+    min-height: 2rem;
+    /*background-color: #cccccc;*/
+}
+.style_new,.style_hot,.style_fashtion,.style_foot {
+    width: 6.4rem;
+    min-height: .7rem;
+    /*border: 1px solid yellow;*/
+    /*background-color: red;*/
+}
+.style_logo {
+    width: 6.4rem;
+    height: .7rem;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+.style_logo>span{
+    width: 2.1rem;
+    display: block;
+    padding: 0.1rem 0;
+    margin: auto;
+}
+.logo {
+    width: 100%;
+}
+/*search*/
+.style_search {
+    width: 6.4rem;
+    height: .7rem;
+    margin-top: .7rem;
+    margin-bottom: .7rem;
+    background-color: #ffffff;
+}
+.zz {
+    position: relative;
+}
+.zz a {
+    width: 6%;
+    height: 6%;
+    color: #ccc;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 2.5%;
+    cursor: pointer;
+}
+.zz .search-img {
+    width: 80%;
+}
+.search {
+    width: 91%;
+    min-height: .4rem;
+    border: 1px solid #ccc;
+    text-indent: 10px;
+    margin-top: 2.5%;
+}
+
+.search_btn {
+    width: 70%;
+    margin-top: 6px;
+}
+.style_banner {
+    padding-top: 1.4rem;
+}
+.style_banner img {
+    width: 100%;
+}
+.style_new {
+    width: 6.4rem;
+    text-align: center;
+}
+.products img{
+    width: 100%;
+}
+.products div {
+    width: 33.3333%;
+}
+.products span {
+    display: block;
+}
+.newbtn {
+    width: 80px;
+    height: 40px;
+    border: 1px solid #cccccc;
+    border-radius: 7px;
+    color: #000000;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+}
+.style_hot {
+    width: 6.4rem;
+    text-align: center;
+}
+.hot img{
+    width: 30%;
+} 
+.hot {
+    text-align: center;
+}
+.wangna{
+    margin: auto;
+    font-size: 30px;
+    padding: 40px;
+}
+.wangnabtn {
+    border: 2px solid #000;
+    padding: 10px;
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+.style_fashtion {
+    text-align: center;
+
+}
+.fasion img {
+    width: 100%;
+}
+.style_foot {
+    width: 6.4rem;
+    overflow: hidden;
+}
+.style_foot ul li {
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+.style_foot ul li span {
+    display: block;
+}

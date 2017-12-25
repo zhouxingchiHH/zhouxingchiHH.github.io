@@ -1,0 +1,41 @@
+/*CSS样式重置*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;/*兼容内核为webkit的浏览器*/
+}
+body {
+    font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    color: #000000;
+}
+ul li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+input {
+    border: none;
+    outline: none;
+}
+/*公共样式*/
+.s_left {
+    float: left;
+}
+.s_right {
+    float: right;
+}
+.clearfix::after,
+.clearfix::before{
+    clear: both;
+    display: table;
+    content: '';
+}
+.fixed {
+    position: fixed;
+}
